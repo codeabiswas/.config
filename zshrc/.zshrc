@@ -46,6 +46,9 @@ alias htopb="btm -b"
 # Simpler alias for neofetch
 alias nf="neofetch"
 
+# Go to last directory
+alias cdl="cd -"
+
 # ---------------------------------------------------------
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -57,8 +60,13 @@ alias nf="neofetch"
 # ---------------------------------------------------------
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# ---------------------------------------------------------
+# spicetify-cli cmd line access
+# ---------------------------------------------------------
+export PATH=$PATH:/Users/dragonfruit/.spicetify
 
 # ---------------------------------------------------------
 # Zsh syntax highlighting (Always the last line)
 # ---------------------------------------------------------
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
