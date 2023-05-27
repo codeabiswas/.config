@@ -1,0 +1,12 @@
+# Ignore spicetify
+spicetify/
+
+# Ignore theme files
+# Zsh theme files
+zshrc/themes/powerlevel10k
+# Alacritty theme files
+alacritty/themes
+
+
+# Mac-specific file
+.DS_Store
