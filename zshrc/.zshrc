@@ -19,7 +19,8 @@ source ~/.config/zshrc/themes/powerlevel10k/powerlevel10k.zsh-theme
 # Improved vim mode in zsh
 source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
-# Fzf - fuzzy finder
+# z - Jump around faster using frecency
+source ~/.config/z/z.sh
 
 # ---------------------------------------------------------
 # Set aliases
