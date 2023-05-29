@@ -65,6 +65,18 @@ alias cdl="cd -"
 # ---------------------------------------------------------
 export PATH=$PATH:/Users/dragonfruit/.spicetify
 
+
+# ---------------------------------------------------------
+# spicetify-cli cmd line access
+# ---------------------------------------------------------
+export PATH=$PATH:/Users/dragonfruit/.discocss
+
+# ---------------------------------------------------------
+# Default editor - nvim
+# ---------------------------------------------------------
+export EDITOR=nvim
+export VISUAL="$EDITOR"
+
 # ---------------------------------------------------------
 # Zsh syntax highlighting (Always the last line)
 # ---------------------------------------------------------
