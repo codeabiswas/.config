@@ -50,6 +50,15 @@ alias nf="neofetch"
 # Go to last directory
 alias cdl="cd -"
 
+# Better df = duf
+alias df="duf"
+
+# Better cat = bat
+alias cat="bat"
+
+# Fzf + bat for telescope-like experience on shell
+alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+
 # ---------------------------------------------------------
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
