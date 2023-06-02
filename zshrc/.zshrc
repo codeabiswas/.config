@@ -59,6 +59,9 @@ alias cat="bat"
 # Fzf + bat for telescope-like experience on shell
 alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 
+# Source Python environment
+alias sourcepyenv="source env/bin/activate"
+
 # ---------------------------------------------------------
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
